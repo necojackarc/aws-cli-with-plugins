@@ -13,5 +13,5 @@ The official AWS CLI version 2 Docker image with plugins.
 Same as the official:
 
 ```bash
-alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws necojackarc/aws-cli-with-plugins'
+alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v "$(pwd)":/aws necojackarc/aws-cli-with-plugins'
 ```
